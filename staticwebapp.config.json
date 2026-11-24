@@ -1,0 +1,16 @@
+{
+  "routes": [
+    { "route": "/api/*", "methods": ["POST"] },
+    { "route": "/saber", "rewrite": "/saber.html" },
+    { "route": "/resolver", "rewrite": "/resolver.html" },
+    { "route": "/prevenir", "rewrite": "/prevenir.html" },
+    { "route": "/planes", "rewrite": "/planes.html" },
+    { "route": "/contacto", "rewrite": "/contacto.html" }
+  ],
+  "responseOverrides": {
+    "404": { "rewrite": "/404.html" }
+  },
+  "mimeTypes": {
+    ".json": "application/json"
+  }
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto — Cbits: revisión gratis de 20 minutos</title>
+<meta name="description" content="Escríbenos para una revisión gratis de 20 minutos. Cbits atiende despachos y oficinas de 5 a 50 personas en CDMX.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand" aria-label="Cbits, inicio">
+      <img src="assets/logo-blanco.png" alt="Cbits" class="brand-logo">
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+      <ul class="nav-list" id="navList">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="saber.html">Saber</a></li>
+        <li><a href="resolver.html">Resolver</a></li>
+        <li><a href="prevenir.html">Prevenir</a></li>
+        <li><a href="planes.html">Planes</a></li>
+        <li><a href="contacto.html" class="nav-cta" aria-current="page">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero page-hero-compact">
+    <div class="wrap">
+      <p class="eyebrow eyebrow-light">Contacto</p>
+      <h1>Cuéntanos qué está fallando.</h1>
+      <p class="hero-sub">Revisión gratis de 20 minutos. Atendemos 1 o 2 empresas nuevas por semana.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow">Qué sigue</p>
+        <h2>Así es el primer contacto.</h2>
+        <ol class="next-steps">
+          <li><span>1</span><div><strong>Nos escribes</strong><p>Con el formulario, por correo o por WhatsApp.</p></div></li>
+          <li><span>2</span><div><strong>Revisión gratis de 20 minutos</strong><p>Nos cuentas cómo trabajas hoy y qué te preocupa.</p></div></li>
+          <li><span>3</span><div><strong>Propuesta clara</strong><p>Te decimos qué necesitas y qué no, con costo definido.</p></div></li>
+        </ol>
+        <ul class="contact-details">
+          <li><strong>Correo</strong><span><a href="mailto:info@cbits.mx">info@cbits.mx</a></span></li>
+          <li><strong>Teléfono y WhatsApp</strong><span><a href="https://wa.me/525540886157" target="_blank" rel="noopener">(55) 4088 6157</a></span></li>
+          <li><strong>Ubicación</strong><span>Ciudad de México</span></li>
+        </ul>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="f-name">Nombre</label>
+          <input type="text" id="f-name" name="name" required autocomplete="name">
+        </div>
+        <div class="form-row">
+          <label for="f-company">Empresa</label>
+          <input type="text" id="f-company" name="company" required autocomplete="organization">
+        </div>
+        <div class="form-row form-row-split">
+          <div>
+            <label for="f-email">Correo</label>
+            <input type="email" id="f-email" name="email" required autocomplete="email">
+          </div>
+          <div>
+            <label for="f-phone">Teléfono</label>
+            <input type="tel" id="f-phone" name="phone" autocomplete="tel">
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="f-size">Tamaño de la empresa</label>
+          <select id="f-size" name="companySize">
+            <option value="1-10">1–10 empleados</option>
+            <option value="11-50">11–50 empleados</option>
+            <option value="51-200">51–200 empleados</option>
+            <option value="200+">200+ empleados</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="f-message">Cuéntanos qué necesitas</label>
+          <textarea id="f-message" name="message" rows="4" required maxlength="3000"></textarea>
+        </div>
+        <div class="hp-field" aria-hidden="true">
+          <label for="f-website">No llenar este campo</label>
+          <input type="text" id="f-website" name="website" tabindex="-1" autocomplete="off">
+        </div>
+        <input type="hidden" id="f-origen" name="origen" value="">
+        <button type="submit" class="btn btn-primary btn-block" id="formSubmit">Enviar mensaje</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo-blanco.png" alt="Cbits" class="footer-logo">
+        <p>Con Cbits, sí sabes.</p>
+      </div>
+      <nav aria-label="Páginas del sitio" class="footer-nav">
+        <a href="index.html">Inicio</a>
+        <a href="saber.html">Saber</a>
+        <a href="resolver.html">Resolver</a>
+        <a href="prevenir.html">Prevenir</a>
+        <a href="planes.html">Planes</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <ul class="footer-contact">
+        <li><span>Correo</span><a href="mailto:info@cbits.mx">info@cbits.mx</a></li>
+        <li><span>Teléfono y WhatsApp</span><a href="https://wa.me/525540886157" target="_blank" rel="noopener">(55) 4088 6157</a></li>
+        <li><span>Ubicación</span>Ciudad de México</li>
+      </ul>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Cbits. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/525540886157" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 004.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.12c-.25.69-1.45 1.32-2 1.37-.51.05-1.15.07-1.86-.12-.43-.13-.98-.32-1.69-.63-2.97-1.28-4.9-4.27-5.05-4.47-.15-.2-1.2-1.6-1.2-3.05s.76-2.16 1.03-2.46c.27-.3.59-.37.79-.37h.57c.18 0 .43-.07.67.51.25.6.84 2.05.91 2.2.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.09 1.31 2.39 1.46.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.07.12.07.72-.18 1.41z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>

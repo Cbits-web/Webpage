@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planes — Cbits: precios desde por equipo, con IVA incluido</title>
+<meta name="description" content="Planes Esencial, Crecimiento y Empresarial de Cbits, con precios desde por equipo al mes, IVA incluido.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand" aria-label="Cbits, inicio">
+      <img src="assets/logo-blanco.png" alt="Cbits" class="brand-logo">
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Abrir menú</span>
+      </button>
+      <ul class="nav-list" id="navList">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="saber.html">Saber</a></li>
+        <li><a href="resolver.html">Resolver</a></li>
+        <li><a href="prevenir.html">Prevenir</a></li>
+        <li><a href="planes.html" aria-current="page">Planes</a></li>
+        <li><a href="contacto.html" class="nav-cta">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="wrap">
+      <p class="eyebrow eyebrow-light">Planes</p>
+      <h1>Planes por capas, con precios que puedes ver.</h1>
+      <p class="hero-sub">El cobro base es por equipo, al mes y con IVA incluido. Cada plan suma capas al anterior.</p>
+      
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <dl class="base-prices">
+        <div><dt>Póliza PC</dt><dd>desde $450 <span>MXN por equipo al mes</span></dd></div>
+        <div><dt>Póliza Mac</dt><dd>desde $500 <span>MXN por equipo al mes</span></dd></div>
+        <div><dt>Póliza Servidor</dt><dd>$900 <span>MXN por servidor al mes</span></dd></div>
+      </dl>
+
+      <div class="pricing-grid">
+        <article class="price-card" id="plan-esencial">
+          <h3>Esencial</h3>
+          <p class="price-for">Saber + Resolver</p>
+          <p class="price-amount">desde $450 <span>MXN por PC al mes, IVA incluido</span></p>
+          <ul class="price-features">
+            <li><strong>Saber:</strong> te decimos de quién es la falla</li>
+            <li><strong>Resolver:</strong> diseñamos el plan y lo ejecutamos</li>
+          </ul>
+          <a href="contacto.html" class="btn btn-outline">Solicitar este plan</a>
+        </article>
+
+        <article class="price-card price-card-featured" id="plan-crecimiento">
+          <span class="price-badge">Más elegido</span>
+          <h3>Crecimiento</h3>
+          <p class="price-for">Esencial + Prevenir 3A</p>
+          <p class="price-amount">desde $450 <span>MXN por PC al mes, más $300 por equipo una sola vez</span></p>
+          <ul class="price-features">
+            <li>Todo lo de Esencial</li>
+            <li><strong>Prevenir 3A:</strong> respaldos dentro de Microsoft 365 o Google</li>
+            <li>Configuración del respaldo en la nube en cada equipo (pago único)</li>
+          </ul>
+          <a href="contacto.html" class="btn btn-primary">Solicitar este plan</a>
+        </article>
+
+        <article class="price-card" id="plan-empresarial">
+          <h3>Empresarial</h3>
+          <p class="price-for">Crecimiento + proveedores + Prevenir 3B</p>
+          <p class="price-amount">desde $450 <span>MXN por PC al mes, más $500 al mes de vigilancia del respaldo</span></p>
+          <ul class="price-features">
+            <li>Todo lo de Crecimiento</li>
+            <li>Gestión con tus proveedores</li>
+            <li><strong>Prevenir 3B:</strong> copia externa con Synology</li>
+            <li>Configuración del respaldo: $900 una sola vez</li>
+            <li>El equipo Synology se cotiza según tu empresa</li>
+          </ul>
+          <a href="contacto.html" class="btn btn-outline">Hablar con nosotros</a>
+        </article>
+      </div>
+      <p class="price-note">Precios en pesos mexicanos, IVA incluido. Las licencias de Microsoft 365 o Google Workspace se cotizan aparte.</p>
+    </div>
+  </section>
+
+  <section class="section section-tint">
+    <div class="wrap">
+      <p class="eyebrow">Qué incluye cada plan</p>
+      <h2>Las capas, lado a lado.</h2>
+
+      <div class="table-wrap">
+        <table class="data-table plan-table">
+          <thead>
+            <tr><th scope="col">Capa</th><th scope="col">Esencial</th><th scope="col">Crecimiento</th><th scope="col">Empresarial</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row"><a href="saber.html">Saber</a><small>De quién es la falla</small></th><td class="yes">Incluido</td><td class="yes">Incluido</td><td class="yes">Incluido</td></tr>
+            <tr><th scope="row"><a href="resolver.html">Resolver</a><small>Plan y ejecución</small></th><td class="yes">Incluido</td><td class="yes">Incluido</td><td class="yes">Incluido</td></tr>
+            <tr><th scope="row"><a href="prevenir.html">Prevenir 3A</a><small>Respaldo dentro de la plataforma</small></th><td class="no">No incluido</td><td class="yes">Incluido</td><td class="yes">Incluido</td></tr>
+            <tr><th scope="row">Gestión con proveedores<small>Seguimiento de fallas de terceros</small></th><td class="no">No incluido</td><td class="no">No incluido</td><td class="yes">Incluido</td></tr>
+            <tr><th scope="row"><a href="prevenir.html">Prevenir 3B</a><small>Copia externa con Synology</small></th><td class="no">No incluido</td><td class="no">No incluido</td><td class="yes">Incluido</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Un ejemplo</p>
+      <h2>Una oficina con 10 PC.</h2>
+      <p class="lead">Así se ve el costo para una oficina de 10 equipos PC. En Mac el cobro base es de $500 por equipo.</p>
+
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr><th scope="col"></th><th scope="col">Esencial</th><th scope="col">Crecimiento</th><th scope="col">Empresarial</th></tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Cobro mensual</th><td>$4,500</td><td>$4,500</td><td>$5,000<small>$4,500 + $500 de vigilancia</small></td></tr>
+            <tr><th scope="row">Pago único</th><td>$0</td><td>$3,000<small>$300 por equipo</small></td><td>$3,900<small>$3,000 + $900 del respaldo</small></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="price-note">Cifras en pesos mexicanos, IVA incluido. No incluyen las licencias de Microsoft 365 o Google ni el equipo Synology, que se cotiza según tu empresa. Los proyectos nuevos, como cableado o una red Wi-Fi nueva, se cotizan aparte.</p>
+    </div>
+  </section>
+  <section class="section cta-band">
+    <div class="wrap cta-inner">
+      <div>
+        <h2 class="light">¿Cuánto sería para tu oficina?</h2>
+        <p class="light-muted">Cuéntanos cuántos equipos tienes y te damos una estimación.</p>
+      </div>
+      <a href="contacto.html" class="btn btn-primary">Pedir una estimación</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo-blanco.png" alt="Cbits" class="footer-logo">
+        <p>Con Cbits, sí sabes.</p>
+      </div>
+      <nav aria-label="Páginas del sitio" class="footer-nav">
+        <a href="index.html">Inicio</a>
+        <a href="saber.html">Saber</a>
+        <a href="resolver.html">Resolver</a>
+        <a href="prevenir.html">Prevenir</a>
+        <a href="planes.html">Planes</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <ul class="footer-contact">
+        <li><span>Correo</span><a href="mailto:info@cbits.mx">info@cbits.mx</a></li>
+        <li><span>Teléfono y WhatsApp</span><a href="https://wa.me/525540886157" target="_blank" rel="noopener">(55) 4088 6157</a></li>
+        <li><span>Ubicación</span>Ciudad de México</li>
+      </ul>
+    </div>
+    <p class="footer-copy">© <span id="year"></span> Cbits. Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/525540886157" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 004.74 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.12c-.25.69-1.45 1.32-2 1.37-.51.05-1.15.07-1.86-.12-.43-.13-.98-.32-1.69-.63-2.97-1.28-4.9-4.27-5.05-4.47-.15-.2-1.2-1.6-1.2-3.05s.76-2.16 1.03-2.46c.27-.3.59-.37.79-.37h.57c.18 0 .43-.07.67.51.25.6.84 2.05.91 2.2.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.05 1.13 1 2.09 1.31 2.39 1.46.3.15.47.12.65-.07.17-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.72.81 2.02.96.3.15.5.22.57.35.07.12.07.72-.18 1.41z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
