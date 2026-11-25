@@ -1,0 +1,8 @@
+{
+  "name": "cbits-api",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-node": "^2.6.0"
+  }
+}
