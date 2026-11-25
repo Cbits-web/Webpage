@@ -90,6 +90,6 @@ module.exports = async function (context, req) {
     context.res = { status: 200, body: { ok: true } };
   } catch (err) {
     context.log.error('Error enviando correo:', err.message);
-    context.res = { status: 500, body: { error: 'No se pudo enviar el mensaje.', detail: String(err.message).slice(0, 400) } };
+    context.res = { status: 500, body: { error: 'No se pudo enviar el mensaje.' } };
   }
 };
